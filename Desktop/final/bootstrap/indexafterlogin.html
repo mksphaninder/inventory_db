@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://localhost/bootstrap/showinventory.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>SB Admin - Start Bootstrap Template</title>
+  <!-- Bootstrap core CSS-->
+  <link href="./indexafterlogin_files/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template-->
+  <link href="./indexafterlogin_files/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- Page level plugin CSS-->
+  <link href="./indexafterlogin_files/dataTables.bootstrap4.css" rel="stylesheet">
+  <!-- Custom styles for this template-->
+  <link href="./indexafterlogin_files/sb-admin.css" rel="stylesheet">
+</head>
+
+<body class="fixed-nav sticky-footer bg-dark" id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <a class="navbar-brand" href="http://localhost/bootstrap/indexafterlogin.html">Inventory Management System</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+          <a class="nav-link">
+            <i class="fa fa-fw fa-dashboard"></i>
+            <span class="nav-link-text">Show Inventory</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
+          <a class="nav-link" href="http://localhost/bootstrap/showorder.html">
+            <i class="fa fa-fw fa-area-chart"></i>
+            <span class="nav-link-text">Show Order Lists</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+          <a class="nav-link" href="http://localhost/bootstrap/showusers.html">
+            <i class="fa fa-fw fa-table"></i>
+            <span class="nav-link-text">Show Users</span>
+          </a>
+        </li>
+         
+          
+        &lt;
+      </ul>
+      <ul class="navbar-nav sidenav-toggler">
+        <li class="nav-item">
+          <a class="nav-link text-center" id="sidenavToggler">
+            <i class="fa fa-fw fa-angle-left"></i>
+          </a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="modal" data-target="#exampleModal" href="http://localhost/bootstrap/index.html">
+            <i class="fa fa-fw fa-sign-out"></i>Logout</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+      <!-- Example DataTables Card-->
+      <div class="card mb-3">
+        <div class="card-header">
+          <i class="fa fa-table"></i> Data Table </div>
+        <div class="content-wrapper">
+    <div class="container-fluid">
+      <!-- Breadcrumbs-->
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="http://localhost/bootstrap/showinventory.html#">Dashboard</a>
+        </li>
+        <li class="breadcrumb-item active">Tables</li>
+      </ol>
+      <!-- Example DataTables Card-->
+      
+    </div>
+    <!-- /.container-fluid-->
+    <!-- /.content-wrapper-->
+    <footer class="sticky-footer">
+      <div class="container">
+        <div class="text-center">
+          <small>Copyright © Your Website 2017</small>
+        </div>
+      </div>
+    </footer>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="http://localhost/bootstrap/showinventory.html#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
+    <!-- Logout Modal-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="http://localhost/bootstrap/index.html">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+		<div class="card mb-3">
+				<div class="card-header">
+				  <i class="fa fa-table"></i> Data Table Example</div>
+				<div class="card-body">
+				  <div class="table-responsive">
+					<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0"></table><table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+              <thead>
+                <tr>
+					<th>Item ID</th>
+					<!-- <th>Item Name</th>
+					<th>Storage Location</th> -->
+					<th>Storage Number</th>
+					<th>Quantity</th>
+					<th>Date</th>
+				</tr>
+              </thead><tbody><tr><td>100</td><td>1</td><td>10</td><td>2017-11-26</td></tr></tbody><tbody><tr><td>102</td><td>3</td><td>24</td><td>2017-11-27</td></tr></tbody><tbody><tr><td>103</td><td>1</td><td>13</td><td>2017-11-27</td></tr></tbody><tbody><tr><td>104</td><td>2</td><td>12</td><td>2017-11-27</td></tr></tbody><tbody><tr><td>106</td><td>4</td><td>12</td><td>2017-11-27</td></tr></tbody><tbody><tr><td>107</td><td>9</td><td>12</td><td>2017-11-27</td></tr></tbody><tbody><tr><td>108</td><td>10</td><td>12</td><td>2017-11-27</td></tr></tbody><tbody><tr><td>109</td><td>4</td><td>21</td><td>2017-11-27</td></tr></tbody><tbody><tr><td>110</td><td>7</td><td>27</td><td>2017-11-27</td></tr></tbody><tbody><tr><td>111</td><td>5</td><td>11</td><td>2017-11-27</td></tr></tbody><tbody><tr><td>112</td><td>9</td><td>1</td><td>2017-11-27</td></tr></tbody><tbody><tr><td>113</td><td>9</td><td>6</td><td>2017-11-27</td></tr></tbody><tbody><tr><td>114</td><td>5</td><td>34</td><td>2017-11-27</td></tr></tbody><tbody><tr><td>115</td><td>6</td><td>23</td><td>2017-11-27</td></tr></tbody><tbody><tr><td>116</td><td>9</td><td>19</td><td>2017-11-27</td></tr></tbody></table></div></div></div></div></div></body></html>
